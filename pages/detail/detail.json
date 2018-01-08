@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#35495e",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "电影详情",
+  "backgroundColor": "#fff",
+  "backgroundTextStyle": "ddark",
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#35495e",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "电影搜索",
+  "backgroundColor": "#fff",
+  "backgroundTextStyle": "ddark",
+  "enablePullDownRefresh": true
+}

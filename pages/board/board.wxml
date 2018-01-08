@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="slide">
+    <swiper indicator-dots="true"
+      autoplay="true" interval="3000" duration="3000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image mode="aspectFill" src="{{item.images.small}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <scroll-view scroll-y class="content">
+    <view class="box" wx:for="{{boards}}" data-key="{{item.key}}" data-name="{{item.name}}" bindtap="listHandle">
+      <view class="item">
+        <text>{{item.name}}</text>
+        <image src="../../images/arrowright.png"></image>
+      </view>
+    </view>
+  </scroll-view>
+</view>

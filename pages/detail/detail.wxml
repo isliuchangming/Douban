@@ -1,0 +1,18 @@
+<view class="container">
+<image src="{{list.images.large}}"></image>
+  <view>
+    电影名： <text>{{list.title}}</text>
+  </view>
+  <view>
+    导演： <text>{{list.directors[0].name}}</text>
+  </view>
+  <view>
+    城市： <text>{{list.countries}}</text>
+  </view>
+  <view>
+    类别： <text>{{list.genres}}</text>
+  </view>
+  <view>
+    影片描述： <text>{{list.summary}}</text>
+  </view>
+</view>

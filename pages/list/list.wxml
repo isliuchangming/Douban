@@ -1,0 +1,23 @@
+<view class="title">
+  <text>豆瓣 》{{title}}</text>
+</view>
+<view class="container" bindtap='navigateDtail'  data-id="{{item.id}}"  wx:for="{{list}}" >
+  <view class="item">
+    <image src="{{item.images.small}}"></image>
+    <view class="info">
+      <view >
+        <text  class="title">电影名：{{item.title}}</text>
+      </view>
+      <view>
+        <text class="genres" >类别：{{item.genres}}</text>      
+      </view>
+      <text class="directors" >导演：{{item.directors[0].name}}</text>
+    </view>
+     <view class="rate">{{item.rating.average}}</view>
+  </view>
+</view>
+<view class="body-view">
+  <loading hidden="{{hidden}}" >
+    加载中...
+  </loading>
+</view>

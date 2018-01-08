@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#35495e",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "豆瓣榜单",
+  "backgroundColor": "#fff",
+  "backgroundTextStyle": "ddark",
+  "enablePullDownRefresh": true
+
+}

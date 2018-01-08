@@ -1,0 +1,34 @@
+.content {
+  overflow: hidden;
+}
+swiper{
+  height:600rpx;
+}
+swiper image{
+  width:100%;
+  height: 100%;
+}
+.box{
+  width: 90%;
+  margin:34rpx; 
+}
+.item{
+  display: flex;
+  border:1px solid #ccc;
+  padding: 30rpx;
+  border-bottom: 0;
+  align-items: center;
+  cursor: pointer;
+}
+.item:last-child{
+  border-bottom: 1px solid #ccc;
+}
+.item text {
+  flex:1;
+  font-size: 32rpx;
+  color:#444;
+}
+.item image {
+  width:40rpx;
+  height:40rpx;
+}
